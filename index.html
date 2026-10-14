@@ -21,68 +21,41 @@
 </style>
 </head>
 <body>
-
-<h1>Zoids Wild Infinity Blast - English Translation</h1>
-<p class="meta">Version 1.0.0 &middot; Title ID <code>0100BF9011CBE000</code> &middot; Japanese base game (v0) required</p>
-
-<p>This is an English localization overlay for <strong>Zoids Wild Infinity Blast (JPN)</strong>. It replaces the start logo with a full-screen StepHackerZ start screen and translates menu and interface text. The mod does not include the game. You need your own copy of the Japanese base game.</p>
-
-<h2>Downloads</h2>
-<p>Download the ZIP for your platform. Both ZIPs contain the same mod files. The only difference is the install instructions inside each one.</p>
-<table>
-  <tr><th>Platform</th><th>Download</th></tr>
-  <tr><td>Nintendo Switch (Atmosphère CFW)</td><td><a class="btn" href="downloads/ZWI_English_Translation_Switch_v1.0.0.zip">Download for Switch</a></td></tr>
-  <tr><td>Eden emulator (PC)</td><td><a class="btn" href="downloads/ZWI_English_Translation_Eden_v1.0.0.zip">Download for Eden</a></td></tr>
-</table>
-<p>Verify your download against <a href="downloads/SHA256SUMS.txt">SHA256SUMS.txt</a>.</p>
-
-<h2>Install on Eden (PC)</h2>
-<ol>
-  <li>In Eden, right-click <strong>Zoids Wild Infinity Blast</strong> and choose <strong>Open Mod Data Location</strong>.</li>
-  <li>Unzip the Eden ZIP. Copy the <code>atmosphere</code> folder into the folder that opened, merging with any existing <code>atmosphere</code> folder.</li>
-  <li>Restart Eden. Right-click the game, choose <strong>Configure Game</strong>, open the <strong>Add-Ons</strong> tab and tick <strong>ZWI_English_Translation</strong>.</li>
-  <li>Launch the game.</li>
-</ol>
-
-<h2>Install on Nintendo Switch (Atmosphère)</h2>
-<p>Requires Atmosphère custom firmware and the Japanese base game (v0). Not for the v65536 update alone.</p>
-<ol>
-  <li>Back up your save data before you start.</li>
-  <li>Unzip the Switch ZIP. Copy the <code>atmosphere</code> folder to the root of your SD card, merging with the existing folder.</li>
-  <li>The result should be <code>/atmosphere/contents/0100BF9011CBE000/romfs/...</code></li>
-  <li>Safely eject the SD card, insert it into the Switch and launch the game.</li>
-</ol>
-
+<h1>Zoids Wild Infinity Blast — English Translation</h1>
+<p><a class="btn" href="https://github.com/StepPhone/zoids-wild-infinity-blast-translation/releases/tag/v0.5">Download ready-to-install mod</a> <a href="https://github.com/StepPhone/zoids-wild-infinity-blast-translation#readme">Installation guide on GitHub</a></p>
+<p>By <strong>StepPhone of the StepHackerZ</strong>. <strong>Patch v0.5 — test release.</strong></p>
+<p>English localization overlay for the Japanese Switch game <strong>0100BF9011CBE000</strong>. The supplied mod targets the Japanese base game (v0 / 1.0.0). Compatibility with update 1.0.1 (v65536) has not been established in this packaging review. Patch and game version numbers are separate.</p>
+<h2>Download</h2>
+<p>Get the ZIP for your platform from the <a href="https://github.com/StepPhone/zoids-wild-infinity-blast-translation/releases/tag/v0.5">v0.5 release</a>:</p>
+<p>Platform — Download</p>
+<p>Eden — <a href="https://github.com/StepPhone/zoids-wild-infinity-blast-translation/releases/download/v0.5/ZWI-English-v0.5-Eden.zip">ZWI-English-v0.5-Eden.zip</a></p>
+<p>Switch / Atmosphere — <a href="https://github.com/StepPhone/zoids-wild-infinity-blast-translation/releases/download/v0.5/ZWI-English-v0.5-Switch.zip">ZWI-English-v0.5-Switch.zip</a></p>
+<p><strong>Ready to install: no Python, terminal commands, extracted RomFS, or builder needed.</strong> You need your own installed Japanese game. Download only one ZIP. The automatic Source code archives are not the recommended mod download.</p>
+<h2>Install in Eden</h2>
+<p>1. Save and stop the game. Disable the previous translation mod, if present.</p>
+<p>2. Extract the <strong>Eden</strong> ZIP.</p>
+<p>3. Right-click Zoids Wild Infinity Blast and choose <strong>Open Mod Data Location</strong>.</p>
+<p>4. Copy the extracted <strong>ZWI_English_Translation</strong> folder into that directory.</p>
+<p>5. Enable <strong>ZWI_English_Translation</strong> in the game&#x27;s Add-Ons settings and launch.</p>
+<p>The path must be <code>&lt;game mod directory&gt;/ZWI_English_Translation/romfs/Data/...</code>. Do not put the Switch <code>atmosphere</code> folder inside Eden&#x27;s mod directory.</p>
+<h2>Install on Switch</h2>
+<p>Requires Atmosphere already configured for game mods. Physical hardware testing has not been verified.</p>
+<p>1. Save and close the game; keep a save backup.</p>
+<p>2. Extract the <strong>Switch</strong> ZIP.</p>
+<p>3. Copy its <strong>atmosphere</strong> folder to the SD card root, merging folders and preserving unrelated mods.</p>
+<p>4. Launch the Japanese game.</p>
+<p>The path must be <code>SD:/atmosphere/contents/0100BF9011CBE000/romfs/Data/...</code>.</p>
 <h2>Update or uninstall</h2>
-<ul>
-  <li><strong>Eden:</strong> untick <strong>ZWI_English_Translation</strong> in Add-Ons, or delete <code>atmosphere/contents/0100BF9011CBE000/romfs/</code> from the mod folder.</li>
-  <li><strong>Switch:</strong> delete <code>/atmosphere/contents/0100BF9011CBE000/</code> from the SD card.</li>
-</ul>
-<p>To update, close the game, delete the old files and install the new ZIP. Do not enable two versions together.</p>
-
-<h2>What's translated</h2>
-<ul>
-  <li>Start logo: StepHackerZ start screen</li>
-  <li>Main menu and title screen</li>
-  <li>Character select</li>
-  <li>Common interface text, custom menu, friends and mission text</li>
-  <li>Boot text</li>
-</ul>
-<p>Battle text is not included in this release.</p>
-
+<p>Close the game before replacing files. Do not enable two translation versions together. In Eden, disable or remove only <strong>ZWI_English_Translation</strong>. On Switch, use the included <code>FILES.txt</code> to remove only this mod&#x27;s files; do not delete the whole title folder if it contains other mods. Installing or removing the mod does not edit saves.</p>
+<h2>Included scope</h2>
+<p>The supplied overlay includes boot, main-menu, character-select, common, customization, friend and mission text bundles, an adventure-information bundle, title/menu assets and a StepHackerZ start screen. This describes the files included, not a claim that every line in those areas is translated.</p>
 <h2>Test status and known issues</h2>
-<ul>
-  <li>Not yet tested in Eden or on physical Switch hardware.</li>
-  <li>Not all screens have been playtested. English text is often longer than Japanese, so some text may be cut off or overflow its box.</li>
-  <li>Battle text is not translated in this release.</li>
-</ul>
-<p class="note">This release does not establish that every screen is translated or free of overflow. Please report problems with a screenshot, your game version, emulator or hardware, and the steps to reproduce them.</p>
-
+<p>- Battle-text translation is not included in the supplied overlay.</p>
+<p>- Full playthrough, update 1.0.1 compatibility and physical Switch behavior are not verified here.</p>
+<p>- Some Japanese text or texture labels may remain, and English text may overflow or be cut off.</p>
+<p>- Packaging validation checks ZIP contents and hashes against the supplied mod. It does not establish in-game stability or translation completeness.</p>
+<p>Report issues with a screenshot, patch/game version, emulator version or hardware, and reproduction steps. Do not post game files, keys or private logs.</p>
 <h2>Credits</h2>
-<ul>
-  <li>Translation and start logo artwork: <strong>StepPhone of the StepHackerZ</strong></li>
-  <li>The original game belongs to its rights holders.</li>
-</ul>
-
-</body>
-</html>
+<p>Translation project and start-screen artwork: <strong>StepPhone of the StepHackerZ</strong>. <a href="https://ko-fi.com/stepphone">Support StepPhone</a>.</p>
+<p>The original game and assets belong to their respective rights holders. The development workspace and builder are not included in this public repository.</p>
+</body></html>
