@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zoids Wild Infinity Blast - English Translation</title>
 <style>
-  body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #222; }
-  h1 { margin-bottom: .2rem; }
-  .sub { color: #666; margin-top: 0; }
-  .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.2rem; margin: 1rem 0; }
-  a.btn { display: inline-block; background: #1f6feb; color: #fff; padding: .5rem 1rem; border-radius: 6px; text-decoration: none; }
-  code { background: #f4f4f4; padding: .1rem .3rem; border-radius: 4px; word-break: break-all; }
-  pre { background: #f4f4f4; padding: .8rem; border-radius: 6px; overflow-x: auto; }
-  .warn { color: #8a5a00; }
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.55; max-width: 820px; margin: 0 auto; padding: 24px 18px 60px; color: #1d1d1f; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #15161a; } table, th, td { border-color: #3a3d46 !important; } code, pre { background: #22252c !important; } a { color: #8fb8ff; } .btn { background: #3b6fd6 !important; } }
+  h1 { font-size: 1.9rem; margin: 0.4em 0 0.2em; }
+  h2 { font-size: 1.3rem; margin-top: 2em; border-bottom: 1px solid #d0d4da; padding-bottom: 0.2em; }
+  .meta { color: #666; font-size: 0.95rem; }
+  code { background: #f1f2f4; padding: 0.1em 0.35em; border-radius: 4px; font-size: 0.9em; word-break: break-all; }
+  pre { background: #f1f2f4; padding: 10px 12px; border-radius: 6px; overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border: 1px solid #d0d4da; padding: 8px 10px; text-align: left; vertical-align: top; }
+  .btn { display: inline-block; background: #2563eb; color: #fff !important; text-decoration: none; padding: 9px 16px; border-radius: 6px; font-weight: 600; margin: 4px 6px 4px 0; }
+  ol li, ul li { margin: 0.35em 0; }
+  .note { border-left: 4px solid #d9a400; padding: 6px 12px; background: rgba(217,164,0,0.08); }
 </style>
 </head>
 <body>
+
 <h1>Zoids Wild Infinity Blast - English Translation</h1>
-<p class="sub">Version 1.0.0 &middot; Title ID <code>0100BF9011CBE000</code> &middot; Japanese base game (v0) required</p>
+<p class="meta">Version 1.0.0 &middot; Title ID <code>0100BF9011CBE000</code> &middot; Japanese base game (v0) required</p>
 
-<p>Translates the menus, battle text and UI of Zoids Wild Infinity Blast into English. The start logo is also replaced.
-The mod does not include the game itself - you need your own copy.</p>
+<p>This is an English localization overlay for <strong>Zoids Wild Infinity Blast (JPN)</strong>. It replaces the start logo with a full-screen StepHackerZ start screen and translates menu and interface text. The mod does not include the game. You need your own copy of the Japanese base game.</p>
 
-<div class="card">
-  <h2>Nintendo Switch (Atmosphere CFW)</h2>
-  <p><a class="btn" href="downloads/ZWI_English_Translation_Switch_v1.0.0.zip">Download for Switch</a></p>
-  <ol>
-    <li>Unzip the file and copy the <code>atmosphere</code> folder to the root of your SD card, merging with the existing folder.</li>
-    <li>The result should be <code>/atmosphere/contents/0100BF9011CBE000/romfs/...</code></li>
-    <li>Eject the SD card and start the game.</li>
-  </ol>
-  <p>To remove, delete <code>/atmosphere/contents/0100BF9011CBE000/</code> from the SD card.</p>
-</div>
+<h2>Downloads</h2>
+<p>Download the ZIP for your platform. Both ZIPs contain the same mod files. The only difference is the install instructions inside each one.</p>
+<table>
+  <tr><th>Platform</th><th>Download</th></tr>
+  <tr><td>Nintendo Switch (Atmosphère CFW)</td><td><a class="btn" href="downloads/ZWI_English_Translation_Switch_v1.0.0.zip">Download for Switch</a></td></tr>
+  <tr><td>Eden emulator (PC)</td><td><a class="btn" href="downloads/ZWI_English_Translation_Eden_v1.0.0.zip">Download for Eden</a></td></tr>
+</table>
+<p>Verify your download against <a href="downloads/SHA256SUMS.txt">SHA256SUMS.txt</a>.</p>
 
-<div class="card">
-  <h2>Eden emulator (PC)</h2>
-  <p><a class="btn" href="downloads/ZWI_English_Translation_Eden_v1.0.0.zip">Download for Eden</a></p>
-  <ol>
-    <li>In Eden, right-click the game and choose <strong>Open Mod Data Location</strong>.</li>
-    <li>Unzip the file and copy the <code>atmosphere</code> folder into that location, merging with the existing one.</li>
-    <li>Restart Eden. Go to <strong>Configure Game &rarr; Add-Ons</strong> and tick <strong>ZWI_English_Translation</strong>.</li>
-    <li>Launch the game.</li>
-  </ol>
-</div>
+<h2>Install on Eden (PC)</h2>
+<ol>
+  <li>In Eden, right-click <strong>Zoids Wild Infinity Blast</strong> and choose <strong>Open Mod Data Location</strong>.</li>
+  <li>Unzip the Eden ZIP. Copy the <code>atmosphere</code> folder into the folder that opened, merging with any existing <code>atmosphere</code> folder.</li>
+  <li>Restart Eden. Right-click the game, choose <strong>Configure Game</strong>, open the <strong>Add-Ons</strong> tab and tick <strong>ZWI_English_Translation</strong>.</li>
+  <li>Launch the game.</li>
+</ol>
 
-<div class="card">
-  <h2>Checksums</h2>
-  <p>Verify your download against <a href="downloads/SHA256SUMS.txt">SHA256SUMS.txt</a>:</p>
-  <pre>sha256sum -c SHA256SUMS.txt</pre>
-</div>
+<h2>Install on Nintendo Switch (Atmosphère)</h2>
+<p>Requires Atmosphère custom firmware and the Japanese base game (v0). Not for the v65536 update alone.</p>
+<ol>
+  <li>Back up your save data before you start.</li>
+  <li>Unzip the Switch ZIP. Copy the <code>atmosphere</code> folder to the root of your SD card, merging with the existing folder.</li>
+  <li>The result should be <code>/atmosphere/contents/0100BF9011CBE000/romfs/...</code></li>
+  <li>Safely eject the SD card, insert it into the Switch and launch the game.</li>
+</ol>
 
-<div class="card warn">
-  <strong>Known limitations</strong>
-  <ul>
-    <li>Only the Japanese v0 base game is supported. Other versions may crash.</li>
-    <li>English text is longer than Japanese, so some UI labels may be cut off.</li>
-    <li>The game font may not cover every English character.</li>
-  </ul>
-</div>
+<h2>Update or uninstall</h2>
+<ul>
+  <li><strong>Eden:</strong> untick <strong>ZWI_English_Translation</strong> in Add-Ons, or delete <code>atmosphere/contents/0100BF9011CBE000/romfs/</code> from the mod folder.</li>
+  <li><strong>Switch:</strong> delete <code>/atmosphere/contents/0100BF9011CBE000/</code> from the SD card.</li>
+</ul>
+<p>To update, close the game, delete the old files and install the new ZIP. Do not enable two versions together.</p>
 
-<p>Source and changelog: add your repository link here.</p>
+<h2>What's translated</h2>
+<ul>
+  <li>Start logo: StepHackerZ start screen</li>
+  <li>Main menu and title screen</li>
+  <li>Character select</li>
+  <li>Common interface text, custom menu, friends and mission text</li>
+  <li>Boot text</li>
+</ul>
+<p>Battle text is not included in this release.</p>
+
+<h2>Test status and known issues</h2>
+<ul>
+  <li>Not yet tested in Eden or on physical Switch hardware.</li>
+  <li>Not all screens have been playtested. English text is often longer than Japanese, so some text may be cut off or overflow its box.</li>
+  <li>Battle text is not translated in this release.</li>
+</ul>
+<p class="note">This release does not establish that every screen is translated or free of overflow. Please report problems with a screenshot, your game version, emulator or hardware, and the steps to reproduce them.</p>
+
+<h2>Credits</h2>
+<ul>
+  <li>Translation and start logo artwork: <strong>StepPhone of the StepHackerZ</strong></li>
+  <li>The original game belongs to its rights holders.</li>
+</ul>
+
 </body>
 </html>
