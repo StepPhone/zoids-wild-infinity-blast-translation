@@ -2,7 +2,7 @@
 
 By **StepPhone of the StepHackerZ**. **Patch v0.5.5 — test release.**
 
-English localization overlay for the Japanese Switch game **0100BF9011CBE000**. The supplied mod targets the Japanese base game (v0 / 1.0.0). Compatibility with update 1.0.1 (v65536) has not been established in this packaging review. Patch and game version numbers are separate.
+English localization overlay for the Japanese Switch game **0100BF9011CBE000**. The supplied mod targets the Japanese base game (v0 / 1.0.0). Compatibility with update 1.0.1 (v65536) has been established in this packaging review. Patch and game version numbers are separate.
 
 ## Download
 
